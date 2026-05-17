@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css';
 
 // const API = 'http://localhost:4000/api';
-const API = 'https://recallgenie.onrender.com';
+const API = 'https://recallgenie.onrender.com/api';
 
 function useInterval(cb, delay) {
   const saved = useRef(cb);
