@@ -486,7 +486,7 @@ export default function App() {
       <header className="header">
         <button className="logo" onClick={goHome}>
           <span className="logo-icon">⚡</span>
-          <span className="logo-text">Quiz<span>Forge</span></span>
+          <span className="logo-text">Recall<span>Genie</span></span>
         </button>
         <div className="header-right">
           {screen === 'dashboard' && <button className="header-btn" onClick={goHome}>+ New Quiz</button>}
