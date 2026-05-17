@@ -1,4 +1,4 @@
-# ⚡ QuizForge — AI Quiz from Any PDF
+# ⚡ RecallGenie — AI Quiz from Any PDF
 
 Upload any PDF → Python pipeline cleans & chunks it → Gemini 2.0 Flash generates MCQs → You play.
 

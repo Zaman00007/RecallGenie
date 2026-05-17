@@ -573,7 +573,7 @@ app.get('/api/health', (req, res) => {
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
-  console.log(`\n🚀 QuizForge Backend → http://localhost:${PORT}`);
+  console.log(`\n🚀 RecallGenie Backend → http://localhost:${PORT}`);
   console.log(`   Python pipeline : ${fs.existsSync(PYTHON_PIPELINE) ? '✅ found' : '❌ NOT found at ' + PYTHON_PIPELINE}`);
   console.log(`   Uploads dir     : ${UPLOADS_DIR}`);
   console.log(`   Log level       : DEBUG (all logs enabled)`);
