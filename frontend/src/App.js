@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API = 'http://localhost:4000/api';
+// const API = 'http://localhost:4000/api';
+const API = 'https://recallgenie.onrender.com';
 
 function useInterval(cb, delay) {
   const saved = useRef(cb);
